@@ -30,9 +30,30 @@ li {
   font-size: 10px;
   font-weight: bold;
 }
-h2 {
-  background-color: red;
-  height: 200px;
+#sfondo {
+  background-color: #0d325a;
+  height: 400px;
+}
+.imagesfondo {
+  left: 1000px;
+  position: relative;
+  display: inline-block;
+  background-image: url("image/headerimage.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+h1 {
+  right: 1000px;
+  margin-top: 150px;
+  margin-left: 150px;
+  position: relative;
+  width: auto;
+  height: 100%;
+  color: white;
+
+
 }
 .threecolumn {
   background-color: black;
